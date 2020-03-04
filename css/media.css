@@ -1,0 +1,32 @@
+/******************************* media ******************/
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .wellcome .bottom {
+    bottom: -150px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro .swiper-container .swiper-slide {
+    height: 70vh;
+  }
+  .intro .top_bg {
+    position: absolute;
+    top: 0;
+  }
+  .intro .swiper-slide .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .intro .swiper-slide .row img {
+    height: 180px;
+  }
+  .feat_section {
+    margin-top: -15px;
+  }
+}
+
+/********************************* media ******************/
+/*# sourceMappingURL=media.css.map */

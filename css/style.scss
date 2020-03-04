@@ -1,0 +1,253 @@
+@import "animate";
+@import "hover";
+
+@import "swiper";
+@import "global";
+@import "navbar";
+
+a {
+    text-decoration: none !important;
+}
+.swiper-button-prev , .swiper-button-next {
+    color: $firt_color;
+}
+h4 {
+    color: $firt_color;
+    font-weight: bold;
+}
+.btn_global {
+    background: #1cbd9d;
+    color: #fff;
+    padding: 10px 15px;
+    box-shadow: 0 0 15px 0 rgba(28, 189, 157, 0.3);
+
+}
+button {
+    outline: none !important;
+}
+.hvr-wobble-to-bottom-right {
+    color: #fff !important;
+}
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+input.form-control , button.btn {
+    border-radius: 55px;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: $firt_color;
+    outline: 0;
+    box-shadow: 0 0 10px 0 rgba(0,123,255,.25);
+}
+/**************** start intro section *************/
+.intro {
+    height: 80vh;
+    position: relative;
+    h1 {
+        color: $firt_color;
+
+    }
+    h5 ,p {
+        color: $grey_color
+    }
+  .top_bg {
+        position: absolute;
+        top: -80px;
+    right: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+     .st1 {
+        fill:$second_color
+    }
+
+    .gr{
+        stop:first-of-type {
+            stop-color:$firt_color
+        };
+        stop:last-of-type {
+            stop-color:#9cf7f2
+        }
+    }
+    }
+
+    .main_svg {
+        width: 100%;
+        .fillmain {
+            
+            fill: $second_color
+        }
+        .fillbg {
+            fill: $firt_color;
+        }
+    }
+   
+    .swiper-container {
+
+        .swiper-slide {
+        height: 80vh;
+        display: flex;
+.row  {
+    
+}
+margin-top: auto;
+            img {
+max-height: 350px;
+margin: auto;
+display: block;
+            }
+        }
+   
+    }
+}
+.swiper-slide-active {
+    * {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    img {
+     
+        -webkit-animation-name: flipInX;
+        animation-name: flipInX;
+        -webkit-animation-delay: .5s;
+        animation-delay: .5s;
+    }
+    h1 {
+     
+        -webkit-animation-name: bounceInLeft;
+        animation-name: bounceInLeft;
+    }
+    h5 {
+     
+        -webkit-animation-name: bounceInUp;
+        animation-name: bounceInUp;
+        -webkit-animation-delay: .7s;
+        animation-delay: .7s;
+    }
+    p {
+     
+        -webkit-animation-name: bounceInUp;
+        animation-name: bounceInUp;
+        -webkit-animation-delay: .7s;
+        animation-delay: .7s;
+    }
+    button {
+     
+        -webkit-animation-name: rubberBand;
+        animation-name: rubberBand;
+        // -webkit-animation-delay: .9s;
+        // animation-delay: .9s;
+    }
+}
+/**************** end Intro Section  *************/
+
+
+/***************** start feat ******************/
+.feat_section {
+    margin-top: -50px;
+    position: relative;
+   h4 {
+      font-weight: 700;
+      color: $firt_color;
+    }
+    .feat_section_description {
+      max-width: 800px;
+      text-align: center;
+      margin: auto;
+      color: #fff;
+      margin-bottom: 20px;
+    }
+   .feat_card {
+      box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.09);
+      background: #fdfdfd;
+      padding: 15px;
+      // border-radius: 15px;
+      position: relative;
+      text-align: center;
+      padding-top: 55px;
+      padding-bottom: 55px;
+      transition: all 0.3s ease-in-out;
+      margin-bottom: 20px;
+      height: 330px;
+      display: table;
+      width: 100%;
+      .content {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+      }
+      .icon {
+      font-size: 55px;
+      background: linear-gradient(to right, $firt_color 0%, $second_color 59%, $firt_color 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0;
+      }
+      h6 {
+        color: $grey_color;
+        font-size: 17px;
+        font-weight: 700;
+        padding-top: 10px;
+        letter-spacing: 1px;
+    
+      }
+      p {
+        padding-top: 15px;
+        color: #6a7579;
+        font-size: 17px;
+    
+      }
+span {
+padding-top: 15px;
+color: $firt_color;
+font-size: 17px;
+i {
+  color: $firt_color;
+  font-size: 17px;
+  margin: 0;
+  transform: translateY(2px);
+  padding-left: 5px;
+}
+}
+&:hover {
+background-color: #f6fcff;
+box-shadow: 4px 8px 22px 0px rgba(82, 82, 82, 0.34);
+transform: translateY(-5px);
+}
+    }
+
+  } 
+/****************** end feat ****************/ 
+
+/************** start trust us Section *************/ 
+.trust_us {
+    .container {
+        -webkit-box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.07);
+    box-shadow: 2px 3px 22px 0px rgba(0, 0, 0, 0.07);
+    background: rgba(253, 253, 253, 0.18);
+    padding: 15px;
+    }
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+    }
+    margin-top: 30px;
+    h4 {
+        margin-bottom: 50px;
+    }
+    .trust-container {
+        img {
+            max-width: 200px;
+            box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.15);
+        }
+        
+    }
+}
+
+/************ end trust us Section **************/ 
