@@ -110,16 +110,20 @@ var mySwiper = new Swiper ('.intro-slider', {
       el: '.swiper-scrollbar',
     },
   });
+
+  // jquery
   $(function(){
-//     var limt150 = $('.limt150').text();
-// if (limt150.length > 150) {
-//     var shortlimt150 = limt150.substring(0, 150) + " ...";
-//     $('.limt150').text(shortlimt150);
-// }
+
 $( '.limt100').each(function() {
   let shortlimt100 = $(this).text().substring(0, 100) + " ...";
   $(this).text(shortlimt100);
 });
 
+// nice scroll init
+$("body").niceScroll({
+  cursorcolor:"#1abc9c",
+  cursorwidth:"10px",
+  scrollspeed:"150"
+});
 
   })

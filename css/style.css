@@ -8523,8 +8523,130 @@ body {
   background: #f4fffd;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  text-transform: capitalize;
+}
+
+.card-title, i {
+  color: #1abc9c;
+}
+
+.card-title a, i a {
+  color: #1abc9c;
+}
+
+.second_color {
+  color: #2DC2E0;
+}
+
+.first-color {
+  color: #1abc9c;
+}
+
+.arrow-list {
+  list-style: none !important;
+}
+
+.arrow-list li {
+  position: relative;
+}
+
+.arrow-list li:before {
+  content: '';
+  position: absolute;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  width: 7px;
+  height: 7px;
+  top: calc(50% - 4px);
+  left: -15px;
+  -webkit-transform: translateY(0%) rotate(-45deg);
+          transform: translateY(0%) rotate(-45deg);
+}
+
+.contact-list {
+  list-style: none !important;
+}
+
+.contact-list li i {
+  background: #fff;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 24px;
+  margin: 0 10px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.23);
+          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.23);
+}
+
+.hvr-bounce-to-right:before {
+  background: #1cbd9d;
+}
+
 body {
   background: #f4fffd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: capitalize;
+}
+
+.card-title, i {
+  color: #1abc9c;
+}
+
+.card-title a, i a {
+  color: #1abc9c;
+}
+
+.second_color {
+  color: #2DC2E0;
+}
+
+.first-color {
+  color: #1abc9c;
+}
+
+.arrow-list {
+  list-style: none !important;
+}
+
+.arrow-list li {
+  position: relative;
+}
+
+.arrow-list li:before {
+  content: '';
+  position: absolute;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  width: 7px;
+  height: 7px;
+  top: calc(50% - 4px);
+  left: -15px;
+  -webkit-transform: translateY(0%) rotate(-45deg);
+          transform: translateY(0%) rotate(-45deg);
+}
+
+.contact-list {
+  list-style: none !important;
+}
+
+.contact-list li i {
+  background: #fff;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 24px;
+  margin: 0 10px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.23);
+          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.23);
+}
+
+.hvr-bounce-to-right:before {
+  background: #1cbd9d;
 }
 
 .navbar {
@@ -8535,6 +8657,48 @@ body {
 .navbar * {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+}
+
+.top-bar {
+  background: #ebfffc;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-bar .social i {
+  width: 40px;
+  height: 40px;
+  background: white;
+  line-height: 40px;
+  text-align: center;
+  margin-right: 15px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.09);
+          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.09);
+}
+
+.top-bar .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+}
+
+.top-bar .info p {
+  margin-right: 30px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 0;
+}
+
+.top-bar .info i {
+  padding-right: 10px;
 }
 
 a {
@@ -8568,11 +8732,14 @@ button {
 
 .navbar {
   background-color: #fff;
+}
+
+nav.fixed-top {
   -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
 }
 
-input.form-control, button.btn {
+input.form-control, button.btn, a.btn {
   border-radius: 55px;
 }
 
@@ -8695,6 +8862,7 @@ input.form-control, button.btn {
 .feat_section h4 {
   font-weight: 700;
   color: #1abc9c;
+  margin-bottom: 30px;
 }
 
 .feat_section .feat_section_description {
@@ -8807,4 +8975,105 @@ input.form-control, button.btn {
 }
 
 /************ end trust us Section **************/
+/************ start customer service Section  ********/
+.customer-service {
+  padding: 20px 0;
+  margin-top: 50px;
+  background-image: url("../imgs/customer service bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.customer-service h2 {
+  color: #1abc9c;
+}
+
+/************ end customer service Section  ********/
+/************* start Accounting topics Section ***********/
+.accounting-topics {
+  margin-top: 60px;
+}
+
+.accounting-topics h2 {
+  color: #1abc9c;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.09);
+          box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.09);
+  background: rgba(253, 253, 253, 0.18);
+  margin-bottom: 20px;
+}
+
+.card .card-img-top {
+  max-height: 250px;
+}
+
+/************** end Accounting topics Section ****************/
+/************** start workdays /************/
+.workdays {
+  margin-top: 60px;
+}
+
+.workdays .card {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.workdays .col-md-4:nth-child(even) .card {
+  background: #fff;
+}
+
+.workdays .day-details {
+  margin-top: 30px;
+}
+
+.workdays .day-details p {
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+/************* end  workdays *************/
+/************** start Footer /************/
+.page-footer {
+  background: #1abc9c;
+  margin-top: 50px;
+}
+
+.page-footer ul {
+  padding-left: 0;
+  list-style: circle;
+  color: #fff;
+}
+
+.page-footer li {
+  text-transform: capitalize;
+}
+
+.page-footer .content {
+  padding: 30px 0;
+}
+
+.page-footer h5 {
+  color: #fff;
+}
+
+.page-footer a {
+  color: #eafffb;
+}
+
+.page-footer .footer-copyright {
+  background: #2DC2E0;
+  color: #eafffb;
+}
+
+.page-footer .footer-copyright p {
+  margin: 0;
+}
+
+/************** End Footer /************/
 /*# sourceMappingURL=style.css.map */
