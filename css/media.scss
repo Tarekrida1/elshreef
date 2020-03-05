@@ -15,7 +15,9 @@
 }
 
 @media only screen and (max-width: 768px) {
-
+.m-none {
+    display: none;
+}
  .intro {
     .swiper-container .swiper-slide {
         height: 70vh;}
